@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link href="styles-contact.css" rel="stylesheet" />
+    <title>Contact — Stratus</title>
+  </head>
+  <body>
+    <h1 class="contact-heading">Contact Me!</h1>
+    <div class="section-wrapper">
+      <div class="form">
+        <form action="" method="get">
+          <label for="email-add" class="form-item">
+            <p>Email *</p>
+            <input
+              size="50"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
+          </label>
+          <label for="full-name" class="form-item">
+            <p>Full Name *</p>
+            <input
+              size="50"
+              type="text"
+              placeholder="Your name here"
+              required
+            />
+          </label>
+          <label for="services" class="form-item">
+            <p>What type of project are you looking for? *</p>
+            <select width="500" style="width: 500px" id="services" required>
+              <option value="Coding">Coding</option>
+              <option value="Photography Services">Photography Services</option>
+              <option value="Wedding Videography">Wedding Videography</option>
+              <option value="Editing">Editing</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label for="budget" class="form-item">
+            <p>Expected Budget *</p>
+            <select width="500" style="width: 500px" id="budget">
+              <option value="1">₱10</option>
+              <option value="2">₱12</option>
+              <option value="3">₱15</option>
+              <option value="4">₱18</option>
+              <option value="5">₱20</option>
+            </select>
+          </label>
+          <label for="referrer" class="form-item">
+            <p>How did you hear about us?</p>
+            <select width="500" style="width: 500px" id="referrer">
+              <option value="Personal-Website">Personal Website</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Youtube">Youtube</option>
+              <option value="Cient-Referal">Cient Referal</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label for="submit" class="form-item">
+            <input type="submit" value="SEND" />
+          </label>
+        </form>
+      </div>
+      <div class="image-container">
+        <img class="photo" src="images\IMG_0834.JPG" alt="my photo" />
+      </div>
+    </div>
+  </body>
+</html>

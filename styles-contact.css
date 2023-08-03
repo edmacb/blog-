@@ -1,0 +1,42 @@
+* {
+  font-family: Poppins;
+  font-size: 38px;
+}
+.contact-heading {
+  text-align: center;
+  font-size: 5vw;
+}
+.section-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-item {
+  border: 3px solid black;
+  padding: 5px;
+  margin: 2px;
+  display: block;
+}
+input,
+select {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #808080;
+}
+input:focus {
+  border-color: #80bfff;
+  outline: 1px dotted #000;
+}
+.image-container {
+  max-width: 700px;
+}
+.image-container img {
+  width: 100%;
+}
+@media (max-width: 728px) {
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
